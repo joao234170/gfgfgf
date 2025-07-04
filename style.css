@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f2e9; /* Cor de fundo suave em verde */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2e7d32; /* Verde escuro */
+    margin-bottom: 20px;
+}
+
+.quiz-container {
+    margin-bottom: 20px;
+}
+
+.pergunta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #388e3c; /* Verde médio */
+}
+
+.alternativas button {
+    background-color: #66bb6a; /* Verde claro */
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.alternativas button:hover {
+    background-color: #388e3c; /* Verde mais escuro */
+}
+
+.resultado {
+    display: none;
+    margin-top: 20px;
+}
+
+#reiniciar-btn {
+    background-color: #388e3c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#reiniciar-btn:hover {
+    background-color: #2e7d32; /* Verde escuro */
+}
